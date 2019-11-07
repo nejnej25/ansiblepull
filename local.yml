@@ -2,8 +2,8 @@
 - name: pull codebase
   hosts: localhost
   tasks:
-	- name: cloning git repo
-	  git:
-		repo: ssh://git@github.com/nejnej25/bash-scripts.git"
-		dest: /tmp
-		clone: yes
+    - name: cloning git repo
+      git:
+         repo: ssh://git@github.com/nejnej25/bash-scripts.git"
+         dest: /tmp
+         clone: yes
