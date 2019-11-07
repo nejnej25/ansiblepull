@@ -5,5 +5,5 @@
     - name: cloning git repo
       git:
          repo: ssh://git@github.com/nejnej25/bash-scripts.git"
-         dest: /tmp
+         dest: /tmp/bash-scripts
          clone: yes
